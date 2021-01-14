@@ -11,7 +11,7 @@ Test the Flask App (app.py)
 ~$ python app.py
 
 or to start the flask app in debug mode
-
+   
 ~$ python app.py -d
 
 Go to http://127.0.0.1:8080/ and you will see a basic website that can be customtized for a project.
@@ -47,16 +47,13 @@ To build the docker container
 
 ~$ docker build -t ai-capstone .
 
-
 Check that the image is there.
 
 ~$ docker image ls
 
-
 If there are images that you no longer use, You may delete them with
 
 ~$ docker image rm IMAGE_ID_OR_NAME
-
 
 And every once and a while if you want clean up you can
 
@@ -66,9 +63,7 @@ And every once and a while if you want clean up you can
 Run the container to test that it is working
 ----------------------------------------------
 
-.. code-block:: bash
-
-    ~$ docker run -p 4000:8080 ai-capstone
+~$ docker run -p 4000:8080 ai-capstone
 
 Go to http://127.0.0.1:8080/ and you will see a basic website that can be customised for a project.
 
@@ -81,7 +76,6 @@ First go to [http://127.0.0.1:8080/](http://0.0.0.0:4000/) to ensure the app is 
 For training the model: [http://127.0.0.1:8080/train](http://0.0.0.0:4000/train)
 
 For making predictions using the model: [http://127.0.0.1:8080/predict](http://0.0.0.0:4000/predict)
-
 
 
 ## Evaluation Criteria Input
