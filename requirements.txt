@@ -1,0 +1,8 @@
+
+cython
+numpy
+flask
+pandas
+numpy
+scikit-learn==0.21.2
+matplotlib
